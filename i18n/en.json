@@ -1,0 +1,69 @@
+{
+  "header": {
+    "name": "Xircus",
+    "features": "features",
+    "getStarted": "get started",
+    "howToEarn": "how to earn"
+  },
+  "mainSection": {
+    "name": "Xircus",
+    "headline": "Start your NFT business today!",
+    "subHeadline": "Deploy your customizable NFT marketplace in minutes bundled with awesome features",
+    "deployMarketplace": "Deploy Marketplace",
+    "xircusPunks": "Get XircusPunks for early access",
+    "asSeenOn": "As Seen On"
+  },
+  "nftSpaceSection": {
+    "headline": "Take full control of the NFT Space",
+    "subHeadline": "Built on mulitple chains, NFT marketplaces that are deployed, owned and governed by YOU",
+    "nftText": "NFTs make the internet ownable because you can create digital scarcity. We're just scratching the surface of whatthe Web 3.0 creator and collector economy is going to be"
+  },
+  "productsSection": {
+    "headline": "Products"
+  },
+  "earnSection": {
+    "headline": "How to Earn?",
+    "subHeadline": "Unleash the power of decentralized NFT marketplaces"
+  },
+  "verticalTabsSection": {
+    "headline": "What Can You Deploy?"
+  },
+  "horizontalTabsSection": {
+    "headline": "Easy Steps To Get Started"
+  },
+  "stackSection": {
+    "headline": "Multiple Blockchain Support",
+    "subHeadline": "Xircus supports multi-chain deployment for multiple blockchain selection"
+  },
+  "cardsSliderSection": {
+    "headline": "Built-In and Add-On Features"
+  },
+  "twoColumnsSection": {
+    "headline": "Income Calculator",
+    "forFree": "Get started for free",
+    "costs": "No hidden costs",
+    "mintFee": "$1 mint fee only",
+    "owner": "Owner configured transaction fees starting at 2%",
+    "royaltyFees": "Not taking royalty fees",
+    "itemsMinted": "Example using 1,000,000 NFT items minted, paid with",
+    "marketPlace": "What's your marketplace mint fee?",
+    "lowest": "$1",
+    "highest": "$100",
+    "marketplaceText": "Marketplace Owner",
+    "dataText": "Data Provider",
+    "ambassadorText": "Ambassador",
+    "xircus": "Xircus",
+    "marketplacePrice": "450,000 USDC",
+    "dataPrice": "100,000 USDC",
+    "ambassadorPrice": "250,000 USDC",
+    "xircusPrice": "250,000 USDC"
+  },
+  "footer": {
+    "allRights": "All Right Reserved 2021 | Xircus Pte. Ltd",
+    "blog": "Blog",
+    "resources": "Resources",
+    "terms": "Terms and Condition",
+    "privacy": "Privacy",
+    "contactUs": "Contact Us"
+  }
+}

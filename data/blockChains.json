@@ -6,32 +6,37 @@
   },
   {
     "img": "https://bitbill.oss-accelerate.aliyuncs.com/pics/coins/bsc.svg",
-    "title": "BSC",
+    "title": "POLYGON",
     "label": ""
   },
   {
     "img": "https://bitbill.oss-accelerate.aliyuncs.com/pics/coins/bsc.svg",
-    "title": "BSC",
+    "title": "FANTOM",
     "label": ""
   },
   {
     "img": "https://bitbill.oss-accelerate.aliyuncs.com/pics/coins/bsc.svg",
-    "title": "BSC",
+    "title": "ETHEREUM",
     "label": ""
   },
   {
     "img": "https://bitbill.oss-accelerate.aliyuncs.com/pics/coins/bsc.svg",
-    "title": "BSC",
+    "title": "MOONBEAM",
     "label": ""
   },
   {
     "img": "https://bitbill.oss-accelerate.aliyuncs.com/pics/coins/bsc.svg",
-    "title": "BSC",
+    "title": "MOONRIVER",
     "label": ""
   },
   {
     "img": "https://bitbill.oss-accelerate.aliyuncs.com/pics/coins/bsc.svg",
-    "title": "BSC",
+    "title": "AVALANCHE",
+    "label": ""
+  },
+  {
+    "img": "https://bitbill.oss-accelerate.aliyuncs.com/pics/coins/bsc.svg",
+    "title": "CELO",
     "label": ""
   }
 ]

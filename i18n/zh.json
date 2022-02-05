@@ -1,0 +1,69 @@
+{
+  "header": {
+    "name": "Xircus 市场",
+    "features": "特征",
+    "getStarted": "开始",
+    "howToEarn": "如何赚钱"
+  },
+  "mainSection": {
+    "name": "Xircus 市场",
+    "headline": "立即开始您的 NFT 业务！",
+    "subHeadline": "在几分钟内部署您的可定制 NFT 市场并捆绑了很棒的功能",
+    "deployMarketplace": "部署市场",
+    "xircusPunks": "获取 XircusPunks 抢先体验",
+    "asSeenOn": "如上所示"
+  },
+  "nftSpaceSection": {
+    "headline": "完全控制 NFT 空间",
+    "subHeadline": "建立在多条链上，由您部署、拥有和管理的 NFT 市场",
+    "nftText": "NFT 让互联网变得可以拥有，因为你可以创造数字稀缺性。我们只是触及 Web 3.0 创造者和收藏家经济的皮毛"
+  },
+  "productsSection": {
+    "headline": "产品"
+  },
+  "earnSection": {
+    "headline": "如何赚钱?",
+    "subHeadline": "释放去中心化 NFT 市场的力量"
+  },
+  "verticalTabsSection": {
+    "headline": "你可以部署什么?"
+  },
+  "horizontalTabsSection": {
+    "headline": "简单的入门步骤"
+  },
+  "stackSection": {
+    "headline": "多区块链支持",
+    "subHeadline": "Xircus 支持多链部署，多区块链选择"
+  },
+  "cardsSliderSection": {
+    "headline": "内置和附加功能"
+  },
+  "twoColumnsSection": {
+    "headline": "收入计算器",
+    "forFree": "免费开始",
+    "costs": "无隐藏费用",
+    "mintFee": "只需 1 美元的铸币费",
+    "owner": "所有者配置的交易费用从 2% 开始",
+    "royaltyFees": "不收取版税",
+    "itemsMinted": "使用铸造的 1,000,000 个 NFT 项目的示例，支付方式为",
+    "marketPlace": "你的市场铸币费是多少？",
+    "lowest": "1美元",
+    "highest": "100 美元",
+    "marketplaceText": "市场所有者",
+    "dataText": "数据提供者",
+    "ambassadorText": "大使",
+    "xircus": "Xircus 市场",
+    "marketplacePrice": "450,000 美元",
+    "dataPrice": "100,000 美元",
+    "ambassadorPrice": "250,000 美元",
+    "xircusPrice": "250,000 美元"
+  },
+  "footer": {
+    "allRights": "保留所有权利 2021 |西克斯私人有限公司有限公司",
+    "blog": "博客",
+    "resources": "资源",
+    "terms": "附带条约",
+    "privacy": "隐私",
+    "contactUs": "联系我们"
+  }
+}

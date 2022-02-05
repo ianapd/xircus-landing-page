@@ -1,10 +1,10 @@
 import { Box, Container, Divider, Heading, Img, Tab, TabList, TabPanel, TabPanels, Tabs, Text } from "@chakra-ui/react";
 import { coloredTabStyle, typoStyle, verticalTabsContainerStyle, verticalTabsStyle } from "../../styles/globalStyle";
 
-export const VerticalTabsSection = ({ tabItems=[] }) => (
+export const VerticalTabsSection = ({ tabItems=[], translation }) => (
   <Box>
     <Container {...verticalTabsContainerStyle} centerContent>
-      <Heading {...typoStyle.headline.tabsHeadline}>What Can You Deploy?</Heading>
+      <Heading {...typoStyle.headline.tabsHeadline}>{translation('headline')}</Heading>
       <Tabs {...verticalTabsStyle}>
         <TabList>
           {tabItems.map((item, i) => (

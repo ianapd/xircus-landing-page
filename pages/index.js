@@ -25,6 +25,7 @@ import { StackSection } from '../components/sections/StackSection'
 import { CardsSlider } from '../components/sections/CardsSlider'
 import { TwoColumnsSection } from '../components/sections/TwoColumnsSection'
 import { Footer } from '../components/Footer'
+import { useTranslations } from "next-intl";
 
 export default function Home() {
   const [images, setImages] = useState(imagesData)
@@ -38,6 +39,18 @@ export default function Home() {
   const [otherBlockChains, setOtherBlockChains] = useState(otherBlockChainsData)
   const [featureCards, setFeatureCards] = useState(featureCardsData)
 
+  const headerTranslations = useTranslations('header')
+  const mainSectionTranslations = useTranslations('mainSection')
+  const nftSectionTranslations = useTranslations('nftSpaceSection')
+  const productsSectionTranslations = useTranslations('productsSection')
+  const earnSectionTranslations = useTranslations('earnSection')
+  const verticalTabsSectionTranslations = useTranslations('verticalTabsSection')
+  const horizontalTabsSectionTranslations = useTranslations('horizontalTabsSection')
+  const stackSectionTranslations = useTranslations('stackSection')
+  const cardsSliderSectionTranslations = useTranslations('cardsSliderSection')
+  const twoColumnsSliderSectionTranslations = useTranslations('twoColumnsSection')
+  const footerTranslations = useTranslations('footer')
+
   return (
     <Box>
       <Head>
@@ -45,18 +58,18 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;500;700;900&display=swap" rel="stylesheet" />
       </Head>
-      <Header icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" />
-      <MainSection icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" images={images} />
-      <NFTSpaceSection cardItems={cardItems} />
-      <ProductsSection products={products} />
-      <EarnSection earners={earners} />
+      <Header icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" translation={headerTranslations} />
+      <MainSection icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" images={images} translation={mainSectionTranslations} />
+      <NFTSpaceSection cardItems={cardItems} translation={nftSectionTranslations} />
+      <ProductsSection products={products} translation={productsSectionTranslations} />
+      <EarnSection earners={earners} translation={earnSectionTranslations} />
       <FeatureItemsSection features={features} />
-      <VerticalTabsSection tabItems={verticalTabItems} />
-      <HorizontalTabsSection tabItems={horizontalTabItems}/>
-      <StackSection blockChains={blockChains} otherBlockChains={otherBlockChains} />
-      <CardsSlider featureCards={featureCards} />
-      <TwoColumnsSection />
-      <Footer />
+      <VerticalTabsSection tabItems={verticalTabItems} translation={verticalTabsSectionTranslations}/>
+      <HorizontalTabsSection tabItems={horizontalTabItems} translation={horizontalTabsSectionTranslations} />
+      <StackSection blockChains={blockChains} otherBlockChains={otherBlockChains} translation={stackSectionTranslations} />
+      <CardsSlider featureCards={featureCards} translation={cardsSliderSectionTranslations} />
+      <TwoColumnsSection translation={twoColumnsSliderSectionTranslations} />
+      <Footer translation={footerTranslations} />
     </Box>
   )
 }

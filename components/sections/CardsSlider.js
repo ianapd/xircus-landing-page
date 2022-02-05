@@ -2,10 +2,10 @@ import { Box, Img, Container, Heading, IconButton, Stack, VStack, Text } from "@
 import { arrowIconStyle, cardsSliderContainerStyle, featureSliderBoxStyle, featureSliderStackStyle, gradientButtonStyle, sliderImageStyle, sliderStackStyle, typoStyle } from "../../styles/globalStyle";
 import { MdKeyboardArrowLeft, MdKeyboardArrowRight } from 'react-icons/md'
 
-export const CardsSlider = ({ featureCards=[] }) => (
+export const CardsSlider = ({ featureCards=[], translation }) => (
   <Box>
     <Container {...cardsSliderContainerStyle}>
-      <Heading {...typoStyle.headline.sliderHeadline}>Built-In and Add-On Features</Heading>
+      <Heading {...typoStyle.headline.sliderHeadline}>{translation('headline')}</Heading>
       <Stack {...sliderStackStyle}>
         <IconButton 
           {...gradientButtonStyle} p={1} display={{ base: 'none', lg: 'flex' }}>

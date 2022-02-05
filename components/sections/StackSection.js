@@ -1,11 +1,11 @@
 import { Box, Container, Heading, HStack, Text, VStack, Img, Stack } from "@chakra-ui/react"
 import { horizontalStackCardStyle, innerVerticalStackCardStyle, outerVerticalStackCardStyle, stackCardStyle, stackContainerStyle, stackImageStyle, stackImagestyle, typoStyle } from "../../styles/globalStyle"
 
-export const StackSection = ({ blockChains=[], otherBlockChains=[] }) => (
+export const StackSection = ({ blockChains=[], otherBlockChains=[], translation }) => (
   <Box>
     <Container {...stackContainerStyle} centerContent>
-      <Heading {...typoStyle.headline.sectionHeadline}>Multiple Blockchain Support</Heading>
-      <Text {...typoStyle.text.stackText}>Xircus supports multi-chain deployment for multiple blockchain selection</Text>
+      <Heading {...typoStyle.headline.sectionHeadline}>{translation('headline')}</Heading>
+      <Text {...typoStyle.text.stackText}>{translation('subHeadline')}</Text>
       <VStack {...outerVerticalStackCardStyle}>
         <Stack {...horizontalStackCardStyle}>
           {blockChains.map((item, itemkey) => (

@@ -2,23 +2,23 @@ import { Box, Container, Stack, Img, Heading, Text, Button, IconButton , Grid, S
 import { columnStackStyle, containerStyle, gradientButtonStyle, iconStyle, imgLogoStyle, mainButtonStyle, playIconStyle, rowStackStyle, typoStyle, verticalStackStyle } from "../../styles/globalStyle";
 import { BsFillPlayFill } from 'react-icons/bs'
 
-export const MainSection = ({ icon, images=[] }) => (
+export const MainSection = ({ icon, images=[], translation }) => (
   <Box>
     <Container {...containerStyle}>
       <Stack {...verticalStackStyle}>
         <Img src={icon} {...iconStyle} />
-        <Heading {...typoStyle.headline.mainHeadline}>Xircus</Heading>
-        <Heading {...typoStyle.headline.mainSecondHeadline}>Start your NFT business today!</Heading>
-        <Text {...typoStyle.subheadline.mainSubHeadline}>Deploy your customizable NFT marketplace in minutes <br />bundled with awesome features</Text>
+        <Heading {...typoStyle.headline.mainHeadline}>{translation('name')}</Heading>
+        <Heading {...typoStyle.headline.mainSecondHeadline}>{translation('headline')}</Heading>
+        <Text {...typoStyle.subheadline.mainSubHeadline}>{translation('subHeadline')}</Text>
         <IconButton {...mainButtonStyle}>
           <BsFillPlayFill {...playIconStyle} />
         </IconButton>
         <Stack {...columnStackStyle}>
-          <Button {...gradientButtonStyle} {...typoStyle.text.buttonText}>Deploy Marketplace</Button>
-          <Button {...gradientButtonStyle} {...typoStyle.text.buttonText}>Get XircusPunks for <br/>early access</Button>
+          <Button {...gradientButtonStyle} {...typoStyle.text.buttonText}>{translation('deployMarketplace')}</Button>
+          <Button {...gradientButtonStyle} {...typoStyle.text.buttonText}>{translation('xircusPunks')}</Button>
         </Stack>
         <Stack {...rowStackStyle}>
-          <Text {...typoStyle.title.mainTitle}>As Seen On</Text>
+          <Text {...typoStyle.title.mainTitle}>{translation('asSeenOn')}</Text>
           {images.map((item, itemKey) => (
             <Img src={item} {...imgLogoStyle} />
           ))}
