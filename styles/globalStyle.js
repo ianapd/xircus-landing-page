@@ -26,6 +26,7 @@ export const typoStyle = {
     tabsHeadline: {
       fontSize: 36,
       fontWeight: 700,
+      pt: 36,
       pb: 12,
       align: 'center',
       justifyContent: 'center'
@@ -102,7 +103,7 @@ export const typoStyle = {
       fontSize: 16,
       fontWeight: 700,
       textAlign: 'center',
-      w: '75%'
+      w: 150
     },
     boxText: {
       fontSize: 16,
@@ -177,81 +178,14 @@ export const typoStyle = {
   }
 }
 
-export const itemListStyle = {
-  name: {
-
-  },
-  desc: {
-
-  },
-  price: {
-
-  }
-}
-
-export const itemCardStyle = {
-  name: {
-
-  },
-  desc: {
-
-  },
-  price: {
-
-  }
-}
-
-export const itemAvatarStyle = {
-  name: {
-
-  },
-  desc: {
-
-  },
-  price: {
-
-  }
-}
-
-export const itemMetaStyle = {
-   name: {
-
-   },
-   desc: {
-
-   },
-   price: {
-
-   }
-}
-
-export const ColListStyle = {
-  wrap: {
-
-  },
-  title: {
-
-  }
-}
-
-export const ColCardStyle = {
-   cover: {
-
-   },
-   avatar: {
-
-   },
-   name: {
-
-   },
-   address: {
-
-   }
+export const mainBoxStyle = {
+  bgSize: 'cover'
 }
 
 export const containerStyle = {
   maxW: 'container.xl',
-  mt: 8
+  pt: 8,
+  pb: 8
 }
 
 export const nftSpaceContainerStyle = {
@@ -302,7 +236,7 @@ export const twoColumnsContainerStyle = {
 export const footerContainerStyle = {
   maxW: 'container.lg',
   mt: 48,
-  mb: 4
+  pb: 4
 }
 
 export const columnStackStyle = {
@@ -348,11 +282,18 @@ export const twoColumnsVerticalStackStyle = {
 export const horizontalStackStyle = {
   direction: 'row',
   align: 'center',
+  w: 1250
+}
+
+export const navHorizontalStackStyle = {
+  direction: 'row',
+  align: 'center',
+  spacing: '16px',
 }
 
 export const verticalStackStyle = {
   direction: 'column',
-  align: 'center'
+  align: 'center',
 }
 
 export const earnCardHorizontalStackStyle = {
@@ -404,14 +345,14 @@ export const footerStackStyle = {
 }
 
 export const iconStyle = {
-  w: { base: '15%', md: '5%' },
-  h: { base: '15%', md: '5%' },
+  w: 20,
+  h: 90,
   pb: 4
 }
 
 export const navIconStyle = {
-  w: { base: '10%', md: '4%' },
-  h: { base: '10%', md: '4%' }
+  w: 10,
+  h: 10
 }
 
 export const navButtonStyle = {
@@ -421,7 +362,7 @@ export const navButtonStyle = {
 
 export const navSelectStyle = {
   pl: 8,
-  w: '25%',
+  w: 150,
   bgColor: '#633c22',
   borderRadius: 'full'
 }
@@ -451,8 +392,8 @@ export const gradientButtonStyle = {
 }
 
 export const imgLogoStyle = {
-  w: { base: '30%', lg: '10%' },
-  h: { base: '30%', lg: '10%' }
+  w: { base: 60, lg: 40 },
+  h: { base: 58, lg: 38 }
 }
 
 export const gradientCardStyle = {
@@ -463,8 +404,8 @@ export const gradientCardStyle = {
 }
 
 export const gradientImageStyle = {
-  w: '40%',
-  h: '40%',
+  w: 70,
+  h: 90,
   mb: 4
 }
 
@@ -478,7 +419,7 @@ export const radiusBox = {
 }
 
 export const productsGridStyle = {
-  templateColumns: { base: 'repeat(1, 1fr)', md: 'repeat(3, 1fr)', lg: 'repeat(4, 1fr)'},
+  templateColumns: { base: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(4, 1fr)'},
   gap: 4
 }
 
@@ -495,15 +436,15 @@ export const featuresGridStyle = {
 export const productBoxStyle = {
   bgColor: '#0b0b0b',
   borderRadius: '16px',
-  w: '90%',
-  h: '100%',
+  w: 300,
+  h: 300,
   px: 8,
   py: 8,
 }
 
 export const productImageStyle = {
-  w: '40%',
-  h: '40%',
+  w: 100,
+  h: 100,
   mb: 4
 }
 
@@ -526,7 +467,6 @@ export const featureImageStyle = {
 
 export const featureBoxStyle = {
   borderRadius: '8px',
-  bgColor: '#91c775',
   w: { base: '90vw', md: '40vw' ,lg: '20vw'},
   h: { base: '60vh', md: '40vh'},
   px: 8,
@@ -596,5 +536,11 @@ export const footerButton = {
 
 export const iconsStyle = {
   size: '16px'
+}
+
+export const horizontalTabsBoxStyle = {
+  h: {base: 600, md: 1000, lg: 1400},
+  bgGradient: 'linear(to-br, #9c626e, #4c7285, #51a4c3, #68a1e4, #8290e4, #a37fe5)',
+  clipPath: 'polygon(0 0, 100% 10%, 100% 100%, 0 90%)'
 }
 

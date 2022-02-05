@@ -26,6 +26,7 @@ import { CardsSlider } from '../components/sections/CardsSlider'
 import { TwoColumnsSection } from '../components/sections/TwoColumnsSection'
 import { Footer } from '../components/Footer'
 import { useTranslations } from "next-intl";
+import { mainBoxStyle } from '../styles/globalStyle'
 
 export default function Home() {
   const [images, setImages] = useState(imagesData)
@@ -52,7 +53,7 @@ export default function Home() {
   const footerTranslations = useTranslations('footer')
 
   return (
-    <Box>
+    <Box bgImage="https://uce625883ba1efbd7b29e4324ee8.previews.dropboxusercontent.com/p/thumb/ABZ_m4zdNyi76m4AnhWHyBE6hDrx4qcm9DW0sTcgqbaTxTqj4ABN1Dr6Pzi6Vk7bwIy3eVcYAUV4UPXl3pH2NLgL6-FgNjpolpHlvo3kV8JdPNKGRgUkiVDpidbcgWCHnV6u4VzNqqS8LWMYcp08LsD8Mj7KD6NM_c9DJCs_xe69ww2MMM7qkjGgauVBuz0UEUn3RJemR7LuMmROPmZjW0jNWxMB-dfuDviDskQ5kNfVU2qE-PO0FBucdC_T-uyWT2JYOVGpLD5C3usm15skNvzr7CCNX8DUKwjBPMd5sp_HLtFYrMqmErZmM49s4rqyC7ypn16S5mZV4l7VTYhboVFemSH1daEynvxlksGRvBGQKrb9cKxh98JOgfLq7PfD1VA/p.png" {...mainBoxStyle}>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />

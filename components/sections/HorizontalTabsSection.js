@@ -1,8 +1,8 @@
 import { Box, Container, Heading, Tabs, TabList, Tab, TabPanels, TabPanel, Img } from "@chakra-ui/react";
-import { horizontalTabsContainerStyle, horizontalTabsStyle, tabsStyle, tabStyle, typoStyle, verticalTabsStyle } from "../../styles/globalStyle";
+import { horizontalTabsBoxStyle, horizontalTabsContainerStyle, horizontalTabsStyle, tabsStyle, tabStyle, typoStyle, verticalTabsStyle } from "../../styles/globalStyle";
 
 export const HorizontalTabsSection = ({ tabItems=[], translation }) => (
-  <Box>
+  <Box {...horizontalTabsBoxStyle}>
     <Container {...horizontalTabsContainerStyle} centerContent>
       <Heading {...typoStyle.headline.tabsHeadline}>{translation('headline')}</Heading>
       <Tabs {...horizontalTabsStyle} display={{ base: 'none', md: 'grid' }}>
@@ -25,7 +25,7 @@ export const HorizontalTabsSection = ({ tabItems=[], translation }) => (
         <TabList>
           {tabItems.map((item, i) => (
             <Box>
-              <Tab {...tabStyle} {...typoStyle.title.tabstitle}>{item.tab}</Tab>
+              <Tab {...tabStyle} {...typoStyle.title.tabsTitle}>{item.tab}</Tab>
             </Box>
           ))}
         </TabList>
