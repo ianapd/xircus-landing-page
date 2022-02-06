@@ -1,15 +1,16 @@
-import { Box, Container, Heading, Tabs, TabList, Tab, TabPanels, TabPanel, Img } from "@chakra-ui/react";
-import { horizontalTabsBoxStyle, horizontalTabsContainerStyle, horizontalTabsStyle, tabsStyle, tabStyle, typoStyle, verticalTabsStyle } from "../../styles/globalStyle";
+import { Box, Container, Heading, Tabs, TabList, Tab, TabPanels, TabPanel, Img, Divider } from "@chakra-ui/react";
+import { dividerHorizontalTabsStyle, horizontalTabsBoxStyle, horizontalTabsContainerStyle, horizontalTabsStyle, tabsStyle, tabStyle, typoStyle, verticalTabsStyle } from "../../styles/globalStyle";
 
 export const HorizontalTabsSection = ({ tabItems=[], translation }) => (
   <Box {...horizontalTabsBoxStyle}>
     <Container {...horizontalTabsContainerStyle} centerContent>
       <Heading {...typoStyle.headline.tabsHeadline}>{translation('headline')}</Heading>
-      <Tabs {...horizontalTabsStyle} display={{ base: 'none', md: 'grid' }}>
+      <Tabs {...horizontalTabsStyle} display={{ base: 'none', lg: 'grid' }}>
         <TabList>
           {tabItems.map((item, i) => (
             <Box>
-              <Tab {...tabStyle} {...typoStyle.title.tabsTitle}>{item.tab}</Tab>
+              <Tab {...typoStyle.title.tabsTitle}>{item.tab}</Tab>
+              <Divider {...dividerHorizontalTabsStyle} />
             </Box>
           ))}
         </TabList>
@@ -21,7 +22,7 @@ export const HorizontalTabsSection = ({ tabItems=[], translation }) => (
           ))}
         </TabPanels>
       </Tabs>
-      <Tabs {...verticalTabsStyle} display={{ base: 'flex', md: 'none' }}>
+      <Tabs {...verticalTabsStyle} display={{ base: 'flex', lg: 'none' }}>
         <TabList>
           {tabItems.map((item, i) => (
             <Box>

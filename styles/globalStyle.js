@@ -74,7 +74,8 @@ export const typoStyle = {
     },
     tabsTitle: {
       fontSize: 20,
-      fontWeight: 700
+      fontWeight: 700,
+      w: {base: 150, md: 300}
     },
     sliderTitle: {
       fontsize: 18,
@@ -103,14 +104,13 @@ export const typoStyle = {
       fontSize: 16,
       fontWeight: 700,
       textAlign: 'center',
-      w: 150
+      w: 200,
+      pt: 8
     },
     boxText: {
       fontSize: 16,
       fontWeight: 700,
-      textAlign: 'center',
-      pt: { base: 8, md: 4 },
-      px: { base: 8, md: 4, lg: 0 }
+      textAlign: 'center'
     },
     earnText: {
       fontSize: 16,
@@ -191,6 +191,11 @@ export const containerStyle = {
 export const nftSpaceContainerStyle = {
   maxW: 'container.md',
   mt: 36
+}
+
+export const gradientCardContainerStyle = {
+  maxW: 'container.lg', 
+  mx: 'auto'
 }
 
 export const productsContainerStyle = {
@@ -276,13 +281,14 @@ export const twoColumnsStackStyle = {
 }
 
 export const twoColumnsVerticalStackStyle = {
-  align: 'left'
+  align: 'left',
+  p: {base: 4, lg: 0}
 }
 
 export const horizontalStackStyle = {
   direction: 'row',
   align: 'center',
-  w: 1250
+  w: { base: 500, md: 1250 }
 }
 
 export const navHorizontalStackStyle = {
@@ -294,6 +300,12 @@ export const navHorizontalStackStyle = {
 export const verticalStackStyle = {
   direction: 'column',
   align: 'center',
+}
+
+export const gradientCardStackStyle = {
+  align: 'center',
+  pos: 'relative', 
+  spacing: '48px'
 }
 
 export const earnCardHorizontalStackStyle = {
@@ -339,9 +351,9 @@ export const featureSliderStackStyle = {
 }
 
 export const footerStackStyle = {
-  direction: { base: 'column', lg: 'row' },
+  direction: { base: 'column', md: 'row' },
   align: 'left',
-  spacing: '48px'
+  spacing: { base: '8px', lg: '48px' }
 }
 
 export const iconStyle = {
@@ -356,30 +368,32 @@ export const navIconStyle = {
 }
 
 export const navButtonStyle = {
-  pr: 8,
+  pr: {base: 0, lg: 8},
   variant: 'ghost',
 }
 
 export const navSelectStyle = {
-  pl: 8,
-  w: 150,
+  pl: {base: 0, lg: 8},
+  w: {base: 175, lg: 150},
   bgColor: '#633c22',
   borderRadius: 'full'
 }
 
 export const navBoxStyle = {
-  display: {base: 'none', lg: 'flex'},
+  display: { base: 'none', lg: 'flex' },
 }
 
 export const mainButtonStyle = {
   borderRadius: 'full',
   bgColor: 'white',
   size: 'lg',
+  w: 70,
+  h: 70
 }
 
 export const playIconStyle = {
   color: '#d34239',
-  size: '16px'
+  size: '32px'
 }
 
 export const gradientButtonStyle = {
@@ -388,7 +402,7 @@ export const gradientButtonStyle = {
   variant: 'outline',
   bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)',
   _hover: { boxShadow: '0px 0px 10px orange', bg: '#111', bgGradient: 'linear(to-l, #8a2387, #e94057, #f27121)' },
-  p: 6
+  p: 6,
 }
 
 export const imgLogoStyle = {
@@ -399,13 +413,15 @@ export const imgLogoStyle = {
 export const gradientCardStyle = {
   bgGradient: 'linear(#391725, #1d0c1b)',
   borderRadius: '16px',
-  w: {base: '50vw', lg: '20vw'},
-  h: {base: '35vh', lg: '25vh'}
+  w: 300,
+  h: 150
 }
 
 export const gradientImageStyle = {
   w: 70,
   h: 90,
+  bottom: 14, 
+  left: 100,
   mb: 4
 }
 
@@ -414,8 +430,7 @@ export const radiusBox = {
   borderWidth: '4px',
   borderRadius: 'full',
   bgColor: '#1a0f0d',
-  w: { base: '100vw', md: '60vw' },
-  h: { base: '30vh', md: '15vh', lg: '10vh' },
+  p: {base: 8, md: 4}
 }
 
 export const productsGridStyle = {
@@ -436,8 +451,7 @@ export const featuresGridStyle = {
 export const productBoxStyle = {
   bgColor: '#0b0b0b',
   borderRadius: '16px',
-  w: 300,
-  h: 300,
+  h: 325,
   px: 8,
   py: 8,
 }
@@ -467,8 +481,7 @@ export const featureImageStyle = {
 
 export const featureBoxStyle = {
   borderRadius: '8px',
-  w: { base: '90vw', md: '40vw' ,lg: '20vw'},
-  h: { base: '60vh', md: '40vh'},
+  h: 350,
   px: 8,
   py: 8
 }
@@ -484,12 +497,9 @@ export const horizontalTabsStyle = {
   align: 'center',
 }
 
-export const tabStyle = {
-  mr: { base: '0', md: '16'}
-}
-
 export const coloredTabStyle = {
   _active: { bgColor: '#ac3e48' },
+  h: 75
 }
 
 export const stackImageStyle = {
@@ -539,8 +549,51 @@ export const iconsStyle = {
 }
 
 export const horizontalTabsBoxStyle = {
-  h: {base: 600, md: 1000, lg: 1400},
+  h: {base: 600, lg: 1400},
   bgGradient: 'linear(to-br, #9c626e, #4c7285, #51a4c3, #68a1e4, #8290e4, #a37fe5)',
   clipPath: 'polygon(0 0, 100% 10%, 100% 100%, 0 90%)'
+}
+
+export const menuIconButtonStyle = {
+  variant: 'ghost',
+  display: { base: 'flex', lg: 'none' },
+}
+
+export const mobileDrawerStyle = {
+  placement: 'right',
+  size: 'md'
+}
+
+export const drawerStackStyle = {
+  spacing: '24px',
+  align: 'start'
+}
+
+export const drawerCloseStackStyle = {
+  align: 'start'
+}
+
+export const drawerContentStyle = {
+  bgGradient: 'linear(to-l, #973159, #be434b, #c9582a)',
+  pt: 10
+}
+
+export const drawerMenuIconStyle = {
+  size: "28px"
+}
+
+export const drawerCloseButtonStyle = {
+  pt: 12
+}
+
+export const dividerHorizontalTabsStyle = {
+  w: 200, 
+  bgColor: 'white', 
+  h: 0.4
+}
+
+export const dividerVerticalTabsStyle = {
+  bgColor: 'gray', 
+  h: 0.4
 }
 

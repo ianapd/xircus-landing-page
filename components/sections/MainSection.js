@@ -1,4 +1,4 @@
-import { Box, Container, Stack, Img, Heading, Text, Button, IconButton , Grid, Spacer} from "@chakra-ui/react";
+import { Box, Container, Stack, Img, Heading, Text, Button, IconButton , Grid, Spacer, Circle} from "@chakra-ui/react";
 import { columnStackStyle, containerStyle, gradientButtonStyle, iconStyle, imgLogoStyle, mainButtonStyle, playIconStyle, rowStackStyle, typoStyle, verticalStackStyle } from "../../styles/globalStyle";
 import { BsFillPlayFill } from 'react-icons/bs'
 
@@ -10,9 +10,9 @@ export const MainSection = ({ icon, images=[], translation }) => (
         <Heading {...typoStyle.headline.mainHeadline}>{translation('name')}</Heading>
         <Heading {...typoStyle.headline.mainSecondHeadline}>{translation('headline')}</Heading>
         <Text {...typoStyle.subheadline.mainSubHeadline}>{translation('subHeadline')}</Text>
-        <IconButton {...mainButtonStyle}>
-          <BsFillPlayFill {...playIconStyle} />
-        </IconButton>
+          <IconButton {...mainButtonStyle}>
+            <BsFillPlayFill {...playIconStyle} />
+          </IconButton>
         <Stack {...columnStackStyle}>
           <Button {...gradientButtonStyle} {...typoStyle.text.buttonText}>{translation('deployMarketplace')}</Button>
           <Button {...gradientButtonStyle} {...typoStyle.text.buttonText}>{translation('xircusPunks')}</Button>

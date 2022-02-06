@@ -1,5 +1,5 @@
-import { Box } from '@chakra-ui/react'
-import { useState } from 'react'
+import { Box, useDisclosure } from '@chakra-ui/react'
+import { useEffect, useState } from 'react'
 import Head from 'next/head'
 
 import imagesData from '../data/images.json'
@@ -39,6 +39,13 @@ export default function Home() {
   const [blockChains, setBlockChains] = useState(blockChainsData)
   const [otherBlockChains, setOtherBlockChains] = useState(otherBlockChainsData)
   const [featureCards, setFeatureCards] = useState(featureCardsData)
+  const [slider, setSlider] = useState('')
+
+  const breakPoints = [
+    { width: 1, itemsToShow: 1 },
+    { width: 550, itemsToShow: 2 },
+    { width: 850, itemsToShow: 4 },
+  ]
 
   const headerTranslations = useTranslations('header')
   const mainSectionTranslations = useTranslations('mainSection')
@@ -68,7 +75,7 @@ export default function Home() {
       <VerticalTabsSection tabItems={verticalTabItems} translation={verticalTabsSectionTranslations}/>
       <HorizontalTabsSection tabItems={horizontalTabItems} translation={horizontalTabsSectionTranslations} />
       <StackSection blockChains={blockChains} otherBlockChains={otherBlockChains} translation={stackSectionTranslations} />
-      <CardsSlider featureCards={featureCards} translation={cardsSliderSectionTranslations} />
+      <CardsSlider featureCards={featureCards} translation={cardsSliderSectionTranslations} slider={slider} setSlider={setSlider} breakPoints={breakPoints} />
       <TwoColumnsSection translation={twoColumnsSliderSectionTranslations} />
       <Footer translation={footerTranslations} />
     </Box>

@@ -1,13 +1,19 @@
-import { Box, Img, Stack, Text, VStack } from "@chakra-ui/react";
-import { gradientCardStyle, gradientImageStyle, typoStyle, verticalStackStyle } from "../styles/globalStyle";
+import { Box, Img, Text, VStack, Container } from "@chakra-ui/react";
+import { gradientCardContainerStyle, gradientCardStackStyle, gradientCardStyle, gradientImageStyle, typoStyle, verticalStackStyle } from "../styles/globalStyle";
 
 export const GradientCard = ({ img, text }) => (
   <Box {...gradientCardStyle}>
-    <Stack {...verticalStackStyle}>
-      <Box>
-        <Img src={img} bottom={1} {...gradientImageStyle} />
-      </Box>
-      <Text {...typoStyle.text.gradientCardText}>{text}</Text>
-    </Stack>
+    <Container {...gradientCardContainerStyle}>
+      <VStack {...gradientCardStackStyle}>
+        <Box>
+          <Img src={img} {...gradientImageStyle} pos="absolute" />
+        </Box>
+        <Box pos="relative">
+          <VStack>
+            <Text {...typoStyle.text.gradientCardText}>{text}</Text>
+          </VStack>
+        </Box>
+      </VStack>
+    </Container>
   </Box>
 )
