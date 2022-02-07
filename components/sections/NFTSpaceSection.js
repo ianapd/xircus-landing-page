@@ -2,7 +2,7 @@ import { Box, Container, Stack, Heading, Text} from "@chakra-ui/react";
 import { GradientCard } from "../GradientCard";
 import { nftRowStackStyle, nftSpaceContainerStyle, radiusBox, rowStackStyle, typoStyle, verticalStackStyle } from "../../styles/globalStyle";
 
-export const NFTSpaceSection = ({ cardItems = [], translation }) => (
+export const NFTSpaceSection = ({ cardItems = [], translation, cardsTranslation }) => (
   <Box>
     <Container {...nftSpaceContainerStyle}>
       <Stack {...verticalStackStyle}>
@@ -10,7 +10,7 @@ export const NFTSpaceSection = ({ cardItems = [], translation }) => (
         <Text {...typoStyle.text.nftSpaceText}>{translation('subHeadline')}</Text>
         <Stack {...nftRowStackStyle}>
           {cardItems.map((item, itemKey) => (
-            <GradientCard key={itemKey} {...item} />
+            <GradientCard key={itemKey} translation={cardsTranslation} {...item} />
           ))}
         </Stack>
         <Box {...radiusBox}>

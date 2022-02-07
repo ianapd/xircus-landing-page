@@ -18,8 +18,40 @@
     "subHeadline": "建立在多条链上，由您部署、拥有和管理的 NFT 市场",
     "nftText": "NFT 让互联网变得可以拥有，因为你可以创造数字稀缺性。我们只是触及了 Web 3.0 创造者和收藏家经济的皮毛"
   },
+  "nftCards": {
+    "firstItem": "部署在多个区块链协议上",
+    "secondItem": "接受代币作为 NFT 的付款",
+    "thirdItem": "配置任何去中心化交易所",
+    "fourthItem": "部署和管理多个集合"
+  },
   "productsSection": {
     "headline": "产品"
+  },
+  "productCards": {
+    "firstItemTitle": "仪表板",
+    "secondItemTitle": "市场探索者",
+    "thirdItemTitle": "西克斯朋克",
+    "fourthItemTitle": "发射台",
+    "fifthItemTitle": "提供中心",
+    "sixthItemTitle": "代币工厂",
+    "seventhItemTitle": "治理",
+    "eigthItemTitle": "部署者工作室",
+    "ninthItemTitle": "Xircus皮肤",
+    "tenthItemTitle": "股权和农场",
+    "eleventhItemTitle": "NFT 元上传器",
+    "twelveItemTitle": "排行榜",
+    "firstItemSubTitle": "Xircus 资产概览",
+    "secondItemSubTitle": "发现市场和游戏 铸币并收集 NFT 物品",
+    "thirdItemSubTitle": "独家 DAO 头像",
+    "fourthItemSubTitle": "去中心化代币拍卖",
+    "fifthItemSubTitle": "托管 NFT 市场数据",
+    "sixthItemSubTitle": "部署 ERC20/BEP20 代币",
+    "seventhItemSubTitle": "DAO、投票和休息室",
+    "eigthItemSubTitle": "部署您的个人或社区 NFT 市场",
+    "ninthItemSubTitle": "买卖市场皮肤",
+    "tenthItemSubTitle": "赚取质押奖励",
+    "eleventhItemSubTitle": "将 NFT META 上传到 IPFS",
+    "twelveItemSubTitle": "查看市场表现"
   },
   "earnSection": {
     "headline": "如何赚钱?",

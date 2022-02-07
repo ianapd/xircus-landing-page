@@ -18,8 +18,40 @@
     "subHeadline": "Built on mulitple chains, NFT marketplaces that are deployed, owned and governed by YOU",
     "nftText": "NFTs make the internet ownable because you can create digital scarcity. We're just scratching the surface of what the Web 3.0 creator and collector economy is going to be"
   },
+  "nftCards": {
+    "firstItem": "Deploy on multiple blockchain protocols",
+    "secondItem": "Accept tokens as payment for NFTs",
+    "thirdItem": "Configure with any decentralized exchanges",
+    "fourthItem": "Deploy and manage multiple collection"
+  },
   "productsSection": {
     "headline": "Products"
+  },
+  "productCards": {
+    "firstItemTitle": "Dashboard",
+    "secondItemTitle": "Market Explorer",
+    "thirdItemTitle": "Xircus Punks",
+    "fourthItemTitle": "Launchpad",
+    "fifthItemTitle": "Provide Center",
+    "sixthItemTitle": "Token Factory",
+    "seventhItemTitle": "Governance",
+    "eigthItemTitle": "Deployer Studio",
+    "ninthItemTitle": "XircusSkins",
+    "tenthItemTitle": "Stake and Farm",
+    "eleventhItemTitle": "NFT Meta Uploader",
+    "twelveItemTitle": "Leaderboard",
+    "firstItemSubTitle": "Xircus Assets Overview",
+    "secondItemSubTitle": "Discover marketplaces and games Mint and collect NFT Items",
+    "thirdItemSubTitle": "Exclusive DAO Avatar",
+    "fourthItemSubTitle": "Decentralized Token Auctions",
+    "fifthItemSubTitle": "Host NFT Marketplace Data",
+    "sixthItemSubTitle": "Deploy ERC20/BEP20 Tokens",
+    "seventhItemSubTitle": "DAO, Voting and Lounge",
+    "eigthItemSubTitle": "Deploy Your Personal or Community NFT Marketplace",
+    "ninthItemSubTitle": "Buy and Sell Marketplace Skins",
+    "tenthItemSubTitle": "Earn Staking Rewards",
+    "eleventhItemSubTitle": "Upload NFT META to IPFS",
+    "twelveItemSubTitle": "View Marketplace Performances"
   },
   "earnSection": {
     "headline": "How to Earn?",

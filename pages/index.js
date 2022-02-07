@@ -50,7 +50,9 @@ export default function Home() {
   const headerTranslations = useTranslations('header')
   const mainSectionTranslations = useTranslations('mainSection')
   const nftSectionTranslations = useTranslations('nftSpaceSection')
+  const nftCardsTranslations = useTranslations('nftCards')
   const productsSectionTranslations = useTranslations('productsSection')
+  const productsCardsTranslations = useTranslations('productCards')
   const earnSectionTranslations = useTranslations('earnSection')
   const verticalTabsSectionTranslations = useTranslations('verticalTabsSection')
   const horizontalTabsSectionTranslations = useTranslations('horizontalTabsSection')
@@ -68,8 +70,8 @@ export default function Home() {
       </Head>
       <Header icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" translation={headerTranslations} />
       <MainSection icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" images={images} translation={mainSectionTranslations} />
-      <NFTSpaceSection cardItems={cardItems} translation={nftSectionTranslations} />
-      <ProductsSection products={products} translation={productsSectionTranslations} />
+      <NFTSpaceSection cardItems={cardItems} translation={nftSectionTranslations} cardsTranslation={nftCardsTranslations} />
+      <ProductsSection products={products} translation={productsSectionTranslations} cardsTranslation={productsCardsTranslations} />
       <EarnSection earners={earners} translation={earnSectionTranslations} />
       <FeatureItemsSection features={features} />
       <VerticalTabsSection tabItems={verticalTabItems} translation={verticalTabsSectionTranslations}/>

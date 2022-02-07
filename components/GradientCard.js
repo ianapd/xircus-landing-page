@@ -1,7 +1,7 @@
 import { Box, Img, Text, VStack, Container } from "@chakra-ui/react";
 import { gradientCardContainerStyle, gradientCardStackStyle, gradientCardStyle, gradientImageStyle, typoStyle, verticalStackStyle } from "../styles/globalStyle";
 
-export const GradientCard = ({ img, text }) => (
+export const GradientCard = ({ img, text, translation }) => (
   <Box {...gradientCardStyle}>
     <Container {...gradientCardContainerStyle}>
       <VStack {...gradientCardStackStyle}>
@@ -10,7 +10,7 @@ export const GradientCard = ({ img, text }) => (
         </Box>
         <Box pos="relative">
           <VStack>
-            <Text {...typoStyle.text.gradientCardText}>{text}</Text>
+            <Text {...typoStyle.text.gradientCardText}>{translation(text)}</Text>
           </VStack>
         </Box>
       </VStack>
