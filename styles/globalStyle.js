@@ -104,8 +104,7 @@ export const typoStyle = {
       fontSize: 16,
       fontWeight: 700,
       textAlign: 'center',
-      w: 200,
-      pt: 8
+      w: 200
     },
     boxText: {
       fontSize: 16,
@@ -224,17 +223,17 @@ export const horizontalTabsContainerStyle = {
 }
 
 export const stackContainerStyle = {
-  maxW: 'container.md',
+  maxW: 'container.lg',
   mt: 48
 }
 
 export const cardsSliderContainerStyle = {
   maxW: 'container.xl',
-  mt: 36
+  mt: 48
 }
 
 export const twoColumnsContainerStyle = {
-  maxW: 'container.lg',
+  maxW: 'container.xl',
   mt: 48
 }
 
@@ -288,13 +287,14 @@ export const twoColumnsVerticalStackStyle = {
 export const horizontalStackStyle = {
   direction: 'row',
   align: 'center',
-  w: { base: 500, md: 1250 }
+  w: { base: 500, md: 1250 },
+  pos: 'fixed',
+  zIndex: 3
 }
 
 export const navHorizontalStackStyle = {
   direction: 'row',
   align: 'center',
-  spacing: '16px',
 }
 
 export const verticalStackStyle = {
@@ -320,12 +320,11 @@ export const earnCardVerticalStackStyle = {
 }
 
 export const outerVerticalStackCardStyle = {
-  spacing: '80px'
+  spacing: {base: '32px', lg: '64px'}
 }
 
 export const innerVerticalStackCardStyle = {
-  spacing: '16px',
-  h: '10vh'
+  spacing: '16px'
 }
 
 export const horizontalStackCardStyle = {
@@ -353,7 +352,12 @@ export const featureSliderStackStyle = {
 export const footerStackStyle = {
   direction: { base: 'column', md: 'row' },
   align: 'left',
-  spacing: { base: '8px', lg: '48px' }
+  spacing: { base: '16px', lg: '48px' },
+}
+
+export const wrapStyle = {
+  spacing: { base: '16px', lg: '40px' },
+  justify: 'center'
 }
 
 export const iconStyle = {
@@ -368,8 +372,7 @@ export const navIconStyle = {
 }
 
 export const navButtonStyle = {
-  pr: {base: 0, lg: 8},
-  variant: 'ghost',
+  variant: 'ghost'
 }
 
 export const navSelectStyle = {
@@ -384,7 +387,6 @@ export const navBoxStyle = {
 }
 
 export const mainButtonStyle = {
-  borderRadius: 'full',
   bgColor: 'white',
   size: 'lg',
   w: 70,
@@ -420,7 +422,7 @@ export const gradientCardStyle = {
 export const gradientImageStyle = {
   w: 70,
   h: 90,
-  bottom: 14, 
+  bottom: 10, 
   left: 100,
   mb: 4
 }
@@ -489,17 +491,22 @@ export const featureBoxStyle = {
 export const verticalTabsStyle = {
   orientation: 'vertical',
   variant: 'unstyled',
-  align: 'center'
+  align: 'center',
+  display: 'flex',
+  flexDirection: {base:'column', lg:'row'},
 }
 
 export const horizontalTabsStyle = {
   variant: 'unstyled',
   align: 'center',
+  display: 'flex',
+  flexDirection: {base:'column', lg:'row'},
 }
 
 export const coloredTabStyle = {
   _active: { bgColor: '#ac3e48' },
-  h: 75
+  h: 75,
+  w: 300
 }
 
 export const stackImageStyle = {
@@ -525,6 +532,7 @@ export const sliderImageStyle = {
 export const blackBox = {
   bgColor: '#0c0c0c',
   borderRadius: '12px',
+  w: {lg: 700},
   p: 8,
 }
 
@@ -549,7 +557,7 @@ export const iconsStyle = {
 }
 
 export const horizontalTabsBoxStyle = {
-  h: {base: 600, lg: 1400},
+  h: {base: 900, lg: 1400},
   bgGradient: 'linear(to-br, #9c626e, #4c7285, #51a4c3, #68a1e4, #8290e4, #a37fe5)',
   clipPath: 'polygon(0 0, 100% 10%, 100% 100%, 0 90%)'
 }
@@ -596,4 +604,15 @@ export const dividerVerticalTabsStyle = {
   bgColor: 'gray', 
   h: 0.4
 }
+
+export const unorderedListStyle = {
+  spacing: '8px', 
+  pl: 6
+}
+
+export const horizontalStackStatsStyle = {
+  mb: 8, 
+  spacing: '64px'
+}
+
 

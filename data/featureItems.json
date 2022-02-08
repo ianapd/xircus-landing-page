@@ -1,50 +1,50 @@
 [
   {
     "img": "https://ucda9d980f0f124be2e2b1919d3f.previews.dropboxusercontent.com/p/thumb/ABaBToATIhW4AWhUYRr28yFfw9Fxhcn1VxvPqx6cjZJOfr8h1GCWoHqaGSApHun9pinNCmnZoKBoZx-ShQ_Bon0xOH9uUDY58kpkosTTgnE-0QOqf8GCrfZ0F7kePv6NmQeThop0M6C_rSetSPLzjoDPa0z1iwoJyOscQl01xnDHwsalv9WcxWCo3Z7JHrc5hczx-2hAUICY8OkFfHox1vjy4scT-rikz9XyT9pFgFgS8ozWfX1Wz96DXnHsgnvhIttEmjom7eNeN2pe6eZZSnd3avehAxvMaCl-t14m_ohu0Szg8k6aZCGRESa3x9P2ii5OieIg9KuD3jkKvr3qxadFZl_AjaXJ2gF6RistigwIlmjZPWVb7xQTRcnYor5jKnI/p.png",
-    "title": "NFTs",
-    "subtitle": "Fully customizable NFT collection for single or multiple edition with built-in sale, royalty and split features",
+    "title": "firstItemTitle",
+    "subtitle": "firstItemSubTitle",
     "background": "linear(to-tr, #5966c2, #9c50be, #b43d65)"
   },
   {
     "img": "https://uc4ffd6af8502df815487c750439.previews.dropboxusercontent.com/p/thumb/ABaGw2vOJ88suhlDg5z0ebsbRhyCvozZGYqKHeVXfTJjb7t0hju4-8DVcRAjI3uGP9WWV5vLmN0mzO7tpAGsoQa68-aF8EqunnRxWeB7LFYorXCgh36UoenTbkyhpcrtAW_5s2RrjSIssypvvZC7TsqwUCGUdcYUXmVrUnVWoZNQQLtwr3wa5oFzkw9RkZl2cXHPBSRct4wgQOIw6JANYj2NovJr9Wd0JkpVU3zFXNE3iT-ijf4BlVSu6N_OQDMoVdGb6FYzyqfYNT9LliLpTkFbjrhSSwZn6k3_BZXzYt2_CVD73l6vLwgx9FcNSkE3ufl0MOq3JF7E8TCH9L6Kgrr-Qo0NByG70QfK_q8Du7K2H8XQL0vR3iJo-9VEQnWng84/p.png",
-    "title": "Marketplaces",
-    "subtitle": "Deploy your personal or community marketplace with a click of a button with built-in state",
+    "title": "secondItemTitle",
+    "subtitle": "secondItemSubTitle",
     "background": "linear(to-tr, #ad4839, #943552, #692666)"
   },
   {
     "img": "https://uc1879f5b7e78339107232582a4a.previews.dropboxusercontent.com/p/thumb/ABYl2V-FDwT2MykJjJmP4aBN5vznWvZzB9TzlJWvT_ASAI5_VN8dRhRTj8TGh_coG0Qj6ke6Lucv-qW_7v9Cth1oen3u0Q1vkvSObjjSCV1VHKv_YKa53Ze2l8gVFdvFUMcoxY7cTrJBOGgkxi854gSyNUhZ46AnIdQKPwVFrfxokJ8sKZrwdYCPCtJJ2rndUaSF--2qyDufC1waPLbTBw1SduMi7pGGprgNiRz8hzqFFhtUf9LM96R0cytRAevBw6fpJl06WYbOgWXHJHDELVhvnfhJEpYBuc3aH5SkqQxP_-WBirYWslHlPAfDWWLc0sNZwNScuIMsLOqEbt0egH0UZv9MhVy77ww1ql-YkBieCzDRZA-y3DVQtOnbiNmS44I/p.png",
-    "title": "Tokens",
-    "subtitle": "Pay using your favorite cryptocurrency configured with your exchange of choice",
+    "title": "thirdItemTitle",
+    "subtitle": "thirdItemSubTitle",
     "background": "linear(to-tr, #85c891, #92c877)"
   },
   {
     "img": "https://uc48fb69ab742f2af865383e70f8.previews.dropboxusercontent.com/p/thumb/ABYYomi6idUUItlqoI5h6vmIICkPCHk4uQXX-HVA-NFz2Bnm-0SAG_54aTEY__o280qtH3Z79f1TJyktM36EkWQWxXu0pHGqpJgjq-tzD0RnrYkkJpBP3q4wH-oKrr57D5sCbbvun4RFM0q1Q54mDlUYjmnNmEiw_SAuG52DmNwh7nhCgSsFn0cBhI51cI9ikbixd7mvyP24gJQZbQ3CkAgfe1afFQHjHr-_MpFCSvx10ILSyoa8WjRzqPhRouWDH-LBFMjmnyfdOyGmt6MR88CvQ4yNugzQloTtUkQi6_mcxpjrQGZFFje4qDJRYJhxWH5cKou0kxCPcpHgE3pMg_vLKQUXP191jvJWCmw3t62uI1VFI3XjTdBUizYhNeUKHN4/p.png",
-    "title": "Packs",
-    "subtitle": "Loot boxes of NFT items at a discounted price",
+    "title": "fourthItemTitle",
+    "subtitle": "fourthItemSubTitle",
     "background": "linear(to-tr, #5966c2, #9c50be, #b43d65)"
   },
   {
     "img": "https://uc911e74c78eabcd883cca29c705.previews.dropboxusercontent.com/p/thumb/ABZ5rmq6NMSqw4CLq4vBfee2vKNEfZgdvaWBVhwBbo0nV-FPXhJLroU6vycLuaHCd79CpSPSkRZ90UvbR9XKw1Z1QR2goDuWTDEJJl8sCw6nnzdJNookytsQN_7r9PRcR3ycAUxFIFaNJYg_75oAzDp18P3KtF94OdctqHME5B7_wVghX8T2EK_XgSkbcv9eFCh0rZ3iMmFt1RcSeztskMjwzff-Vs2mGbVJwxYPzbYjxXiG_OsFmx9ot3721gezZW9hiFO9RSnxV1dCbD1OtoqilpcPS48foCByawdvDCz9gfjgI4STwEzbMp5cHW08TwhQFZiPYhEnvFVFid4tPvR6J4bUOnho-CjmOFXj3_7oSorQRpwqqqtHau5ZC5TLgmI/p.png",
-    "title": "Staking",
-    "subtitle": "Deploy staking contracts that your marketplace users can use",
+    "title": "fifthItemTitle",
+    "subtitle": "fifthItemSubTitle",
     "background": "linear(to-tr, #ad4839, #943552, #692666)"
   },
   {
     "img": "https://uca28670d17748ef664366844a58.previews.dropboxusercontent.com/p/thumb/ABZ40jkrYVNE0F4ji-EI74xV2RTckmOVEsQ5NAmHB4PAPsxk4X1mGKnZyuXzl3pW0VDBNxHPnPC3hXr05fC72nWPhp4rwySpjMa5FsUr820xi-sZ68v14RyM4bM29dYdYAW8Sq4pNd8APL1svinrU3MZJ6rnl8pcbkNQN1NZmwNC_3N5XA2p1_Sz4EEQASNDaEBPZ9idPkz3BJ7GQbdyKWAu_Q2XeB2MghSRd2BMaWLxNtZEkg-3Iz2jwdgp7UJ5YKoZOxpnVrmGQedmZV5wv0s3mL0odB_Zg3AWVTHUwXl8p8IUxu_vpAzOBCu0lZuVyZOrPgQsSwKGQasEsl0bMAd45tcpDo7cWQ_Td0nfDeB1mP8_8UYAGNucI0e3JQlcQ1Y/p.png",
-    "title": "Drops",
-    "subtitle": "Scheduled drops for your users to easily claim NFTs and tokens",
+    "title": "sixthItemTitle",
+    "subtitle": "sixthItemSubTitle",
     "background": "linear(to-tr, #85c891, #92c877)"
   },
   {
     "img": "https://ucd68fc54c9675c99566ec5db58f.previews.dropboxusercontent.com/p/thumb/ABb6vzcgZrLzmuxfWEc_FD0aL1b3Vke1vEKIUYSY_FgDa3yCZ3eRhefzkXAYmEXc9U4ki_o3o0fUfwnh2WiVvxKbAahl6NaycsKpA-sRnwfe3xfy4Ze8dS_KeAunUHWWneZgCIeC59zgOH9a4w_8hEmOWv6ho14V59bMlFtkC65QjDIh1JKDRLR3lGyYM6GkHtKKHz_woKwbaPrksDMXogsWoHrc_D9N2p6Sw3Pqo82KyaN-wfmUIUgQvr8hLUVe4vfXZhA12cBTMt0mjqwmmf66h9UMtM0n0Ba8hyDvrNX-dMp3XvSUneCDXIt8kCxlTUjVNECs3U8ijxEnkdYddJYdn_jvDYoiVs650wTPALhNooofmbPVlmB3ixK_FJX2UOw/p.png",
-    "title": "Skins",
-    "subtitle": "Premium skins to override the look of your website anytime",
+    "title": "seventhItemTitle",
+    "subtitle": "seventhItemSubTitle",
     "background": "linear(to-tr, #5966c2, #9c50be, #b43d65)"
   },
   {
     "img": "https://uc6720c2731ea9135e4552c7825f.previews.dropboxusercontent.com/p/thumb/ABbK02CNe_sDsueiO-o-MqxrObWz3Z1p0yWbW5Ap2R48bYS6XHfUI9zBCZkeIpvU-2MniSFwaPFm3SpadyfLdLr5mKj_E5BSf6kokSHz2yZK67vfqKVACiKI1orFofsEGYeQDYFNsIw40pXDoNUBBdM5x5tM6whIRV5AyIWAC_ikC9Aws1uP6XKO6Yj5gOi2X5FlVx-gi8CVI_ziBVmsTiyaDlkXASDsZiXfslxoP8dT65mr_xaYaOLrD8CVeiEqUC2YPguaIjSmDjLiKR6wUIyQMtd7gZwlMH5T9oM9eXcfFBZchXD3TmppO35wMTNDdreij7MLkXVVTZ1E1wKtBkUH3BS0u8xl7SZc7plGoZqsHWf90VnkcQ_IPvoUMpmi_iA/p.png",
-    "title": "Custom Domain",
-    "subtitle": "Use xircus custom domains or your own domains for personalized branding",
+    "title": "eigthItemTitle",
+    "subtitle": "eigthItemSubTitle",
     "background": "linear(to-tr, #983750, #af463f, #b35c31)"
   }
 ]

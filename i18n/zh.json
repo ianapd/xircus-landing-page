@@ -57,18 +57,74 @@
     "headline": "如何赚钱?",
     "subHeadline": "释放去中心化 NFT 市场的力量"
   },
+  "earnerCards": {
+    "firstItemTitle": "作为 DAO",
+    "secondItemTitle": "作为创造者",
+    "thirdItemTitle": "作为收藏家",
+    "fourthItemTitle": "作为市场所有者",
+    "fifthItemTitle": "作为提供者",
+    "sixthItemTitle": "作为大使",
+    "firstItemSubTitle": "抢先体验产品、贵宾休息室、时事通讯、早期机会、折扣和会员奖励",
+    "secondItemSubTitle": "为您的 NFT 铸造低至 1 美元的上市/存储费和每次购买的 2.5% 交易费",
+    "thirdItemSubTitle": "通过 Xircus Mobile 和 Xircus TV 应用从不同的市场收集并管理收藏品",
+    "fourthItemSubTitle": "部署您的 NFT 市场，定制您的费用和主题，为您的客户创造质押机会",
+    "fifthItemSubTitle": "通过将 API 部署到市场的缓存数据中获利",
+    "sixthItemSubTitle": "从帮助创作者铸造他们的作品中获利"
+  },
+  "featureItemsCards": {
+    "firstItemTitle": "NFTs",
+    "secondItemTitle": "市场",
+    "thirdItemTitle": "代币",
+    "fourthItemTitle": "包",
+    "fifthItemTitle": "质押",
+    "sixthItemTitle": "滴",
+    "seventhItemTitle": "皮肤",
+    "eigthItemTitle": "自定义域",
+    "firstItemSubTitle": "具有内置销售、版税和拆分功能的单个或多个版本的完全可定制的 NFT 集合",
+    "secondItemSubTitle": "只需单击具有内置状态的按钮即可部署您的个人或社区市场",
+    "thirdItemSubTitle": "使用您选择的交易所配置的您最喜欢的加密货币付款",
+    "fourthItemSubTitle": "以折扣价战利品箱 NFT 物品",
+    "fifthItemSubTitle": "部署您的市场用户可以使用的质押合约",
+    "sixthItemSubTitle": "为您的用户安排的投放以轻松领取 NFT 和代币",
+    "seventhItemSubTitle": "高级皮肤可随时覆盖您网站的外观",
+    "eigthItemSubTitle": "使用 xircus 自定义域或您自己的域进行个性化品牌推广"
+  },
   "verticalTabsSection": {
     "headline": "你可以部署什么?"
   },
+  "verticalTabItems": {
+    "firstTitle": "一般市场",
+    "secondTitle": "音乐市场",
+    "thirdTitle": "短视频市场",
+    "fourthTitle": "游戏物品市场",
+    "fifthTitle": "成人市场",
+    "sixthTitle": "粉丝市场",
+    "seventhTitle": "订阅市场",
+    "eigthTitle": "10k 头像市场"
+  },
   "horizontalTabsSection": {
     "headline": "简单的入门步骤"
+  },
+  "horizontalTabItems": {
+    "firstTitle": "部署市场",
+    "secondTitle": "部署集合",
+    "thirdTitle": "铸造一个 NFT"
   },
   "stackSection": {
     "headline": "多区块链支持",
     "subHeadline": "Xircus 支持多链部署，多区块链选择"
   },
+  "stackItems": {
+    "soon": "很快"
+  },
   "cardsSliderSection": {
     "headline": "内置和附加功能"
+  },
+  "cardItems": {
+    "firstTitle": "质押",
+    "secondTitle": "随机化器",
+    "thirdTitle": "NFT空投",
+    "fourthTitle": "代币拍卖"
   },
   "twoColumnsSection": {
     "headline": "收入计算器",

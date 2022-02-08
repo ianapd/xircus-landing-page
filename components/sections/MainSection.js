@@ -10,9 +10,7 @@ export const MainSection = ({ icon, images=[], translation }) => (
         <Heading {...typoStyle.headline.mainHeadline}>{translation('name')}</Heading>
         <Heading {...typoStyle.headline.mainSecondHeadline}>{translation('headline')}</Heading>
         <Text {...typoStyle.subheadline.mainSubHeadline}>{translation('subHeadline')}</Text>
-          <IconButton {...mainButtonStyle}>
-            <BsFillPlayFill {...playIconStyle} />
-          </IconButton>
+          <IconButton {...mainButtonStyle} isRound icon={<BsFillPlayFill {...playIconStyle} />} />
         <Stack {...columnStackStyle}>
           <Button {...gradientButtonStyle} {...typoStyle.text.buttonText}>{translation('deployMarketplace')}</Button>
           <Button {...gradientButtonStyle} {...typoStyle.text.buttonText}>{translation('xircusPunks')}</Button>

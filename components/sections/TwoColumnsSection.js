@@ -1,5 +1,5 @@
-import { Box, Container, VStack, Stack, Heading, Text, Spacer, Slider, SliderTrack, SliderFilledTrack, SliderThumb, HStack } from "@chakra-ui/react";
-import { blackBox, horizontalItemsStackStyle, sliderStyle, sliderThumbStyle, sliderTrackStyle, twoColumnsContainerStyle, twoColumnsStackStyle, twoColumnsVerticalStackStyle, typoStyle, verticalItemsStackStyle } from "../../styles/globalStyle";
+import { Box, Container, VStack, Stack, Heading, Text, Spacer, Slider, SliderTrack, SliderFilledTrack, SliderThumb, HStack, ListItem, UnorderedList } from "@chakra-ui/react";
+import { blackBox, horizontalItemsStackStyle, sliderStyle, sliderThumbStyle, sliderTrackStyle, twoColumnsContainerStyle, twoColumnsStackStyle, twoColumnsVerticalStackStyle, typoStyle, unorderedListStyle, verticalItemsStackStyle } from "../../styles/globalStyle";
 
 export const TwoColumnsSection = ({ translation }) => (
   <Box>
@@ -7,11 +7,13 @@ export const TwoColumnsSection = ({ translation }) => (
       <Stack {...twoColumnsStackStyle}>
         <VStack {...twoColumnsVerticalStackStyle}>
           <Heading {...typoStyle.headline.twoColumnsHeadline}>{translation('headline')}</Heading>
-          <li {...typoStyle.text.listItemText}>{translation('forFree')}</li>
-          <li {...typoStyle.text.listItemText}>{translation('costs')}</li>
-          <li {...typoStyle.text.listItemText}>{translation('mintFee')}</li>
-          <li {...typoStyle.text.listItemText}>{translation('owner')}</li>
-          <li {...typoStyle.text.listItemText}>{translation('royaltyFees')}</li>
+          <UnorderedList {...unorderedListStyle}>
+            <ListItem {...typoStyle.text.listItemText}>{translation('forFree')}</ListItem>
+            <ListItem {...typoStyle.text.listItemText}>{translation('costs')}</ListItem>
+            <ListItem {...typoStyle.text.listItemText}>{translation('mintFee')}</ListItem>
+            <ListItem {...typoStyle.text.listItemText}>{translation('owner')}</ListItem>
+            <ListItem {...typoStyle.text.listItemText}>{translation('royaltyFees')}</ListItem>
+          </UnorderedList>
         </VStack> 
         <Spacer />
         <Box {...blackBox}>

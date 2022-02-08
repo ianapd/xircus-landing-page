@@ -40,6 +40,7 @@ export default function Home() {
   const [otherBlockChains, setOtherBlockChains] = useState(otherBlockChainsData)
   const [featureCards, setFeatureCards] = useState(featureCardsData)
   const [slider, setSlider] = useState('')
+  const { isOpen, onOpen, onClose } = useDisclosure()
 
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
@@ -54,10 +55,16 @@ export default function Home() {
   const productsSectionTranslations = useTranslations('productsSection')
   const productsCardsTranslations = useTranslations('productCards')
   const earnSectionTranslations = useTranslations('earnSection')
+  const earnerCardsTranslations = useTranslations('earnerCards')
+  const featureItemCardsTranslations = useTranslations('featureItemsCards')
   const verticalTabsSectionTranslations = useTranslations('verticalTabsSection')
+  const verticalTabItemsTranslations = useTranslations('verticalTabItems')
   const horizontalTabsSectionTranslations = useTranslations('horizontalTabsSection')
+  const horizontalTabItemsTranslations = useTranslations('horizontalTabItems')
   const stackSectionTranslations = useTranslations('stackSection')
+  const stackItemsTranslations = useTranslations('stackItems')
   const cardsSliderSectionTranslations = useTranslations('cardsSliderSection')
+  const cardItemsTranslations = useTranslations('cardItems')
   const twoColumnsSliderSectionTranslations = useTranslations('twoColumnsSection')
   const footerTranslations = useTranslations('footer')
 
@@ -68,16 +75,16 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link href="https://fonts.googleapis.com/css2?family=Urbanist:wght@100;300;500;700;900&display=swap" rel="stylesheet" />
       </Head>
-      <Header icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" translation={headerTranslations} />
+      <Header icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" translation={headerTranslations} isOpen={isOpen} onOpen={onOpen} onClose={onClose} />
       <MainSection icon="https://icoholder.com/files/img/6f7203a158209cb2e9143d6631cbb7c2.png" images={images} translation={mainSectionTranslations} />
       <NFTSpaceSection cardItems={cardItems} translation={nftSectionTranslations} cardsTranslation={nftCardsTranslations} />
       <ProductsSection products={products} translation={productsSectionTranslations} cardsTranslation={productsCardsTranslations} />
-      <EarnSection earners={earners} translation={earnSectionTranslations} />
-      <FeatureItemsSection features={features} />
-      <VerticalTabsSection tabItems={verticalTabItems} translation={verticalTabsSectionTranslations}/>
-      <HorizontalTabsSection tabItems={horizontalTabItems} translation={horizontalTabsSectionTranslations} />
-      <StackSection blockChains={blockChains} otherBlockChains={otherBlockChains} translation={stackSectionTranslations} />
-      <CardsSlider featureCards={featureCards} translation={cardsSliderSectionTranslations} slider={slider} setSlider={setSlider} breakPoints={breakPoints} />
+      <EarnSection earners={earners} translation={earnSectionTranslations} cardsTranslation={earnerCardsTranslations} />
+      <FeatureItemsSection features={features} cardsTranslation={featureItemCardsTranslations} />
+      <VerticalTabsSection tabItems={verticalTabItems} translation={verticalTabsSectionTranslations} tabsTranslation={verticalTabItemsTranslations} />
+      <HorizontalTabsSection tabItems={horizontalTabItems} translation={horizontalTabsSectionTranslations} tabsTranslation={horizontalTabItemsTranslations} />
+      <StackSection blockChains={blockChains} otherBlockChains={otherBlockChains} translation={stackSectionTranslations} cardsTranslation={stackItemsTranslations} />
+      <CardsSlider featureCards={featureCards} translation={cardsSliderSectionTranslations} cardsTranslation={cardItemsTranslations} slider={slider} setSlider={setSlider} breakPoints={breakPoints} />
       <TwoColumnsSection translation={twoColumnsSliderSectionTranslations} />
       <Footer translation={footerTranslations} />
     </Box>

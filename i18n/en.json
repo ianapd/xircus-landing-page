@@ -57,18 +57,74 @@
     "headline": "How to Earn?",
     "subHeadline": "Unleash the power of decentralized NFT marketplaces"
   },
+  "earnerCards": {
+    "firstItemTitle": "As DAO",
+    "secondItemTitle": "As Creator",
+    "thirdItemTitle": "As Collector",
+    "fourthItemTitle": "As Marketplace Owner",
+    "fifthItemTitle": "As Provider",
+    "sixthItemTitle": "As Amabassador",
+    "firstItemSubTitle": "Get early access on products, vip lounge, newsletters, early opportunities, discounts and membership rewards",
+    "secondItemSubTitle": "Mint your NFTs as little as $1 for listing/storage fee and 2.5% transaction fee for every purchase",
+    "thirdItemSubTitle": "Collect from different marketplaces and manage collectibles via Xircus Mobile and Xircus TV apps",
+    "fourthItemSubTitle": "Deploy your NFT marketplace, customize your fees and themes, create staking opportunities for your customers",
+    "fifthItemSubTitle": "Earn from deploying APIs to cached data for marketplaces",
+    "sixthItemSubTitle": "Earn from helping creators mint their creation"
+  },
+  "featureItemsCards": {
+    "firstItemTitle": "NFTs",
+    "secondItemTitle": "Marketplaces",
+    "thirdItemTitle": "Tokens",
+    "fourthItemTitle": "Packs",
+    "fifthItemTitle": "Staking",
+    "sixthItemTitle": "Drops",
+    "seventhItemTitle": "Skins",
+    "eigthItemTitle": "Custom Domain",
+    "firstItemSubTitle": "Fully customizable NFT collection for single or multiple edition with built-in sale, royalty and split features",
+    "secondItemSubTitle": "Deploy your personal or community marketplace with a click of a button with built-in state",
+    "thirdItemSubTitle": "Pay using your favorite cryptocurrency configured with your exchange of choice",
+    "fourthItemSubTitle": "Loot boxes of NFT items at a discounted price",
+    "fifthItemSubTitle": "Deploy staking contracts that your marketplace users can use",
+    "sixthItemSubTitle": "Scheduled drops for your users to easily claim NFTs and tokens",
+    "seventhItemSubTitle": "Premium skins to override the look of your website anytime",
+    "eigthItemSubTitle": "Use xircus custom domains or your own domains for personalized branding"
+  },
   "verticalTabsSection": {
     "headline": "What Can You Deploy?"
   },
+  "verticalTabItems": {
+    "firstTitle": "General Marketplaces",
+    "secondTitle": "Music Marketplaces",
+    "thirdTitle": "Short Video Marketplaces",
+    "fourthTitle": "Game Item Marketplaces",
+    "fifthTitle": "Adult Marketplaces",
+    "sixthTitle": "Fan Marketplaces",
+    "seventhTitle": "Subscription Marketplaces",
+    "eigthTitle": "10k Avatar Marketplaces"
+  },
   "horizontalTabsSection": {
     "headline": "Easy Steps To Get Started"
+  },
+  "horizontalTabItems": {
+    "firstTitle": "Deploy a Marketplace",
+    "secondTitle": "Deploy a Collection",
+    "thirdTitle": "Mint an NFT"
   },
   "stackSection": {
     "headline": "Multiple Blockchain Support",
     "subHeadline": "Xircus supports multi-chain deployment for multiple blockchain selection"
   },
+  "stackItems": {
+    "soon": "soon"
+  },
   "cardsSliderSection": {
     "headline": "Built-In and Add-On Features"
+  },
+  "cardItems": {
+    "firstTitle": "Staking",
+    "secondTitle": "Randomizer",
+    "thirdTitle": "NFT Airdrop",
+    "fourthTitle": "Token Auctions"
   },
   "twoColumnsSection": {
     "headline": "Income Calculator",
