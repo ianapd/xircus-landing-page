@@ -6,21 +6,21 @@ export const VerticalTabsSection = ({ tabItems=[], translation, tabsTranslation 
     <Container {...verticalTabsContainerStyle} centerContent>
       <Heading {...typoStyle.headline.tabsHeadline}>{translation('headline')}</Heading>
       <Tabs {...verticalTabsStyle}>
+        <TabPanels>
+          {tabItems.map((item, i) => (
+            <TabPanel>
+              <Img src={item.img} />
+            </TabPanel>
+          ))}
+        </TabPanels>
         <TabList>
-            {tabItems.map((item, i) => (
-              <Box>
-                <Tab {...coloredTabStyle} {...typoStyle.title.tabsTitle}>{tabsTranslation(item.tab)}</Tab>
-                <Divider {...dividerVerticalTabsStyle} />
-              </Box>
-            ))}
-          </TabList>
-          <TabPanels>
-            {tabItems.map((item, i) => (
-              <TabPanel>
-                <Img src={item.img} />
-              </TabPanel>
-            ))}
-          </TabPanels>
+          {tabItems.map((item, i) => (
+            <Box>
+              <Tab {...coloredTabStyle} {...typoStyle.title.tabsTitle}>{tabsTranslation(item.tab)}</Tab>
+              <Divider {...dividerVerticalTabsStyle} />
+            </Box>
+          ))}
+        </TabList>
       </Tabs>
     </Container>
   </Box>

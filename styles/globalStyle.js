@@ -255,7 +255,7 @@ export const rowStackStyle = {
   direction: { base: 'column', lg: 'row' },
   align: 'center',
   justifyContent: 'center',
-  spacing: '24px',
+  spacing: { base: '48px', lg: '32px' }
 }
 
 export const nftRowStackStyle = {
@@ -408,8 +408,7 @@ export const gradientButtonStyle = {
 }
 
 export const imgLogoStyle = {
-  w: { base: 60, lg: 40 },
-  h: { base: 58, lg: 38 }
+  maxW: 40
 }
 
 export const gradientCardStyle = {
@@ -504,7 +503,7 @@ export const horizontalTabsStyle = {
 }
 
 export const coloredTabStyle = {
-  _active: { bgColor: '#ac3e48' },
+  _selected: { bgColor: '#ac3e48' },
   h: 75,
   w: 300
 }

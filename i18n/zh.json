@@ -93,14 +93,16 @@
     "headline": "你可以部署什么?"
   },
   "verticalTabItems": {
-    "firstTitle": "一般市场",
-    "secondTitle": "音乐市场",
-    "thirdTitle": "短视频市场",
-    "fourthTitle": "游戏物品市场",
-    "fifthTitle": "成人市场",
-    "sixthTitle": "粉丝市场",
-    "seventhTitle": "订阅市场",
-    "eigthTitle": "10k 头像市场"
+    "firstTitle": "公共市场",
+    "secondTitle": "音乐和短片",
+    "thirdTitle": "区块链游戏物品",
+    "fourthTitle": "10k 头像",
+    "fifthTitle": "慈善市场",
+    "sixthTitle": "仅限粉丝的内容",
+    "seventhTitle": "成人收藏品",
+    "eigthTitle": "品牌收藏品",
+    "ninthTitle": "零碎收藏品",
+    "tenthTitle": "门票和订阅"
   },
   "horizontalTabsSection": {
     "headline": "简单的入门步骤"

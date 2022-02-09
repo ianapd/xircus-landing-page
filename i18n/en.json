@@ -93,14 +93,16 @@
     "headline": "What Can You Deploy?"
   },
   "verticalTabItems": {
-    "firstTitle": "General Marketplaces",
-    "secondTitle": "Music Marketplaces",
-    "thirdTitle": "Short Video Marketplaces",
-    "fourthTitle": "Game Item Marketplaces",
-    "fifthTitle": "Adult Marketplaces",
-    "sixthTitle": "Fan Marketplaces",
-    "seventhTitle": "Subscription Marketplaces",
-    "eigthTitle": "10k Avatar Marketplaces"
+    "firstTitle": "Public Marketplaces",
+    "secondTitle": "Music and Short Videos",
+    "thirdTitle": "Blockchain Game Items",
+    "fourthTitle": "10k Avatar",
+    "fifthTitle": "Charity Marketplace",
+    "sixthTitle": "Fan Only Contents",
+    "seventhTitle": "Adult Collectibles",
+    "eigthTitle": "Brand Collectibles",
+    "ninthTitle": "Fractional Collectibles",
+    "tenthTitle": "Tickets and Subscriptions"
   },
   "horizontalTabsSection": {
     "headline": "Easy Steps To Get Started"
